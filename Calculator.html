@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>A simply calculator</title>
+	<script type="text/javascript" src="calculator.js"></script>
+	<link rel="stylesheet" type="text/css" href="calculator.css">
+</head>
+<body>
+	<table id="calculator">
+		<tr>
+			<td id="show_expression" colspan="4">0</td>
+		</tr>
+		<tr>
+			<td id="show_result" colspan="4">0</td>
+		</tr>
+		<tr>
+			<td class="cal_key" onclick="press_key(this)">NewM</td>
+			<td class="cal_key" onclick="press_key(this)">GetM</td>
+			<td class="cal_key" onclick="press_key(this)">Back</td>
+			<td class="cal_key" onclick="press_key(this)">Clear</td>
+		</tr>
+		<tr>
+			<td class="cal_key" onclick="press_key(this)">MPlus</td>
+			<td class="cal_key" onclick="press_key(this)">M*</td>
+			<td class="cal_key" onclick="press_key(this)">CM</td>
+			<td class="cal_key" onclick="press_key(this)">/</td>
+		</tr>
+		<tr>
+			<td class="cal_key" onclick="press_key(this)">7</td>
+			<td class="cal_key" onclick="press_key(this)">8</td>
+			<td class="cal_key" onclick="press_key(this)">9</td>
+			<td class="cal_key" onclick="press_key(this)">*</td>
+		</tr>
+		<tr>
+			<td class="cal_key" onclick="press_key(this)">4</td>
+			<td class="cal_key" onclick="press_key(this)">5</td>
+			<td class="cal_key" onclick="press_key(this)">6</td>
+			<td class="cal_key" onclick="press_key(this)">-</td>
+		</tr>
+		<tr>
+			<td class="cal_key" onclick="press_key(this)">1</td>
+			<td class="cal_key" onclick="press_key(this)">2</td>
+			<td class="cal_key" onclick="press_key(this)">3</td>
+			<td class="cal_key" onclick="press_key(this)">+</td>
+		</tr>
+		<tr>
+			<td class="cal_key" onclick="press_key(this)">0</td>
+			<td class="cal_key" onclick="press_key(this)">.</td>
+			<td class="cal_key" onclick="press_key(this)">+/-</td>
+			<td class="cal_key" onclick="press_key(this)">=</td>
+		</tr>
+	</table>
+</body>
+</html>
